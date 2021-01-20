@@ -46,6 +46,10 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
         }
         
+        .tag {
+            font-size: 2rem !important;
+        }
+        
         .container {
             color: #333;
             margin: 0 auto;
@@ -60,10 +64,10 @@
     <div class="container">
         <h1 style="font-size:3em;">距离段考还有:</h1>
         <ul>
-            <li><span id="days"></span>天</li>
-            <li><span id="hours"></span>小时</li>
-            <li><span id="minutes"></span>分钟</li>
-            <li><span id="seconds"></span>秒</li>
+            <li style="font-size:1rem"><span id="days"></span><span class="tag">天</span></li>
+            <li><span id="hours"></span><span class="tag">小时</span></li>
+            <li><span id="minutes"></span><span class="tag">分钟</span></li>
+            <li><span id="seconds"></span><span class="tag">秒</span></li>
         </ul>
         <h3 style="font-size: 2em;">一个倒计时</h3>
     </div>
